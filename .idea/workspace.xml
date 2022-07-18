@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38704e0b-1254-45d4-9bdb-f00bdec63e36" name="Changes" comment="Changes" />
+    <list default="true" id="38704e0b-1254-45d4-9bdb-f00bdec63e36" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/chldn/OneDrive/바탕 화면/JEI/spring-cloud",
+    "last_opened_file_path": "C:/Users/chldn/OneDrive/바탕 화면/JEI/spring-cloud/spring-cloud-discovery",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -60,7 +62,7 @@
       <workItem from="1658101299947" duration="2982000" />
       <workItem from="1658104661785" duration="70000" />
       <workItem from="1658104745352" duration="2074000" />
-      <workItem from="1658130087119" duration="307000" />
+      <workItem from="1658130087119" duration="610000" />
     </task>
     <servers />
   </component>
