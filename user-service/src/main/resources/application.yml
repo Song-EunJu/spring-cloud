@@ -32,6 +32,12 @@ logging:
   level:
     com.example.userservice: DEBUG
 
-token:
-  expiration_time: 86400000
-  secret: user_token
+#token:
+#  expiration_time: 86400000
+#  secret: user_token
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans
+        # 현재 ms의 config -service에서 가져올 정보를 refresh 하겠다

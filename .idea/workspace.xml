@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38704e0b-1254-45d4-9bdb-f00bdec63e36" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/example/catalogservice/controller/CatalogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/example/catalogservice/dto/CatalogDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/example/catalogservice/jpa/CatalogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/example/catalogservice/jpa/CatalogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/example/catalogservice/service/CatalogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/example/catalogservice/service/CatalogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/example/catalogservice/vo/ResponseCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/jpa/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/jpa/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/vo/RequestOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/vo/ResponseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/example/apigatewayservice/filter/AuthorizationHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/example/apigatewayservice/ApiGatewayServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/src/main/java/com/example/apigatewayservice/ApiGatewayServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +25,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/git-local-repo" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/first-service/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/first-service/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/git-local-repo/ecommerce.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/second-service/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/second-service/src/main/java/com/example/secondservice/SecondServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/second-service/src/main/java/com/example/secondservice/SecondServiceController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring-cloud/src/main/java/com/example/userservice/UserServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/spring-cloud/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/chldn/OneDrive/바탕 화면/JEI/spring-cloud/order-service",
+    "last_opened_file_path": "C:/Users/chldn/OneDrive/바탕 화면/JEI/spring-cloud/git-local-repo",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -64,6 +69,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chldn\OneDrive\바탕 화면\JEI\spring-cloud\git-local-repo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chldn\OneDrive\바탕 화면\JEI\spring-cloud" />
     </key>
@@ -83,6 +91,8 @@
       <workItem from="1658196724719" duration="1110000" />
       <workItem from="1658217345333" duration="29000" />
       <workItem from="1658272151385" duration="3304000" />
+      <workItem from="1658300541988" duration="660000" />
+      <workItem from="1658366864515" duration="5157000" />
     </task>
     <servers />
   </component>
