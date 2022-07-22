@@ -1,0 +1,5 @@
+encrypt:
+  key-store:
+    location: file:///${user.home}\OneDrive\바탕 화면\JEI\keystore\apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
